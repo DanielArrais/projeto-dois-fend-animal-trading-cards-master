@@ -1,42 +1,50 @@
 /* add your CSS here */
-body{
+body {
     font-family: Helvetica, Arial, sans-serif;
     color: rgb(163, 74, 14);
 }
-div, img{
+
+div, img {
     border: rgb(138, 138, 138) solid 1px;
 }
-.card{
-    padding: 0 10px 10px 10px;
+
+.card {
+    padding: 0 10px 10px;
     max-width: 300px;
     background:  rgb(238, 203, 158);
 }
-.card div{
+
+.card div {
     color: antiquewhite;
     background-color: rgb(163, 74, 14);
 }
+
 /*Sobra do box*/
-.sombra{
-    -webkit-box-shadow: 7px 7px 2px 0px rgba(0,0,0,0.2);
-    -moz-box-shadow: 7px 7px 2px 0px rgba(0,0,0,0.2);
-    box-shadow: 7px 7px 2px 0px rgba(0,0,0,0.2);
+.sombra {
+    -webkit-box-shadow: 7px 7px 2px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 7px 7px 2px 0 rgba(0,0,0,0.2);
+    box-shadow: 7px 7px 2px 0 rgba(0,0,0,0.2);
 }
-.title{
-    padding: 0 0 5px 0;
+
+.title {
+    padding: 5px 0;
     margin: 15px 0;
-    font-size: 25px;
 }
-.image{
+
+.image {
     max-width: 298px;
     margin: 0 0 10px 0;
 }
-.infor{
+
+.infor {
     font-style: italic;
 }
-.list-feature{
+
+.list-feature {
     list-style-type: none;
     padding: 0;
 }
-.feature{
+
+.feature {
     font-weight: bold;
 }
