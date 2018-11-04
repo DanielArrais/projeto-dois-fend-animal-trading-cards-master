@@ -1,1 +1,34 @@
 /* add your CSS here */
+.card{
+    border: rgb(227, 228, 230) solid 1px;
+    padding: 0 10px 10px 10px;
+    max-width: 300px;
+}
+/*Sobra do box*/
+.sombra{
+    -webkit-box-shadow: 7px 7px 2px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 7px 7px 2px 0px rgba(0,0,0,0.2);
+    box-shadow: 7px 7px 2px 0px rgba(0,0,0,0.2);
+}
+.title{
+    padding: 0 0 5px 0;
+    margin: 15px 0;
+    font-size: 25px;
+}
+.image{
+    max-width: 300px;
+    padding: 0 0 10px 0;
+}
+.infor{
+    font-style: italic;
+}
+.list-feature{
+    list-style-type: none;
+    padding: 0;
+}
+.feature{
+    font-weight: bold;
+}
+.detail{
+
+}
