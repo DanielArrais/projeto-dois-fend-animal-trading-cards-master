@@ -1,8 +1,19 @@
 /* add your CSS here */
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(163, 74, 14);
+}
+div, img{
+    border: rgb(138, 138, 138) solid 1px;
+}
 .card{
-    border: rgb(227, 228, 230) solid 1px;
     padding: 0 10px 10px 10px;
     max-width: 300px;
+    background:  rgb(238, 203, 158);
+}
+.card div{
+    color: antiquewhite;
+    background-color: rgb(163, 74, 14);
 }
 /*Sobra do box*/
 .sombra{
@@ -16,8 +27,8 @@
     font-size: 25px;
 }
 .image{
-    max-width: 300px;
-    padding: 0 0 10px 0;
+    max-width: 298px;
+    margin: 0 0 10px 0;
 }
 .infor{
     font-style: italic;
@@ -28,7 +39,4 @@
 }
 .feature{
     font-weight: bold;
-}
-.detail{
-
 }
